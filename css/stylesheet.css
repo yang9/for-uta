@@ -1,0 +1,132 @@
+div p:first-of-type:first-letter
+{
+    font-size: 40px;
+    font-family: fantasy;
+    color: red;
+}  
+/* The lines below are the CSS for the navigation bar. */
+
+/* Remove the bullets and the margins and padding from the list.*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+/*  Add background color and change the width of the navigation bar.*/
+
+ul {
+    background-color: orange;  
+    width: 960px;
+}
+
+/*  Inline List Items.*/
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+li a:visited {
+    display: inline-block;
+    color: light-green;
+    font-size: 60px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 15px 20px;
+    text-decoration: none;
+}
+
+/* When mouse over the link, change its background color to LightGreen.*/
+li a:hover {
+    background-color: red;
+}
+
+/* When clickED the link, change its background color to ForestGreen.*/
+li a:active {
+    background-color: ForestGreen;
+}
+/* this puts a header on the page */
+#introduction 
+{
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+     width:970px;
+    margin:auto;
+    text-align:center;
+}
+/* this puts a header on the page */
+#history 
+{
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+     width:970px;
+    margin:auto;
+    text-align:center;
+}
+/* this puts a header on the page */
+#festival 
+{
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+     width:970px;
+    margin:auto;
+    text-align:center;
+}
+/* this centers the contents */
+.container {
+    width:970px;
+    margin:auto;
+    text-align:center; 
+}
+
+/* Add margins to the navigation bar and other sections.*/
+div, ul{
+    margin: 5px;
+}
+img {
+    margin: 30px;
+}
+/* BIG TYPE ON LAST PAGE */
+.romeri {
+    font-family: 'Montserrat', sans-serif;
+    width: 275px;
+    
+}
+/* newborn colt fluffy font */
+#newborn {
+    font-family: 'Indie Flower', cursive;
+}
+/* The end of the navigation part.*/
+div 
+{
+     width:970px;
+    margin:auto;
+    text-align:center;
+}
+
+/* gives credit to NOTORIOUS RES */
+.notorious {
+    width:960px;
+    margin:auto;
+    text-align:center;
+    color: red;
+    background-color:#C5FAC7;
+}
+/* resizing Big Kelpies picture */
+body {
+    position: relative;
+} 
+
+body:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("https://c1.staticflickr.com/7/6030/5981191122_a0be5a8c2c_b.jpg");
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
